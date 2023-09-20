@@ -1,0 +1,27 @@
+package com.samsam.bsl.review.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+
+import com.samsam.bsl.review.service.ReviewService;
+
+public class ReviewController {
+	
+	@Autowired
+    private ReviewService reviewService;
+	
+	 @GetMapping("/create")
+	    public String showCreateReviewPage(Model model) {
+	        // 리뷰 작성 페이지로 이동할 때 필요한 초기 데이터 로딩
+	        model.addAttribute("review", new Review());
+	        return "create-review";
+	    }
+
+	    @PostMapping("/create")
+	    public String createReview(@ModelAttribute("review") Review review) {
+	        // 리뷰 작성 페이지에서 작성한 리뷰를 저장
+	        reviewService.createReview(review);
+	        return "redirect:/review/list";
+	    }
+}

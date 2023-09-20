@@ -1,0 +1,17 @@
+1695105374322	Copy package
+1695105383409	Delete element
+1695105403127	Rename package 'com.samsam.bsl.dto'
+1695105425363	Rename package 'com.samsam.bsl.controller'
+1695105485311	Rename package 'com.samsam.bsl.controller.api'
+1695105500725	Rename package 'com.samsam.bsl.repository'
+1695105512367	Rename package 'com.samsam.bsl.model'
+1695105722867	Delete element
+1695106037775	Rename type 'CommentDto'
+1695106704382	Delete element
+1695106747970	Delete element
+1695106750634	Delete element
+1695106756434	Delete element
+1695107510019	Rename type 'CommentDTO'
+1695201716401	Rename package 'com.samsam.bsl.book'
+1695201728820	Rename package 'com.samsam.bsl.config'
+1695202459779	Rename type 'BookDTO'

@@ -1,0 +1,6 @@
+package com.samsam.bsl.review.controller;
+
+public class ReviewController {
+	@Autowired
+    private ReviewService reviewService;
+}

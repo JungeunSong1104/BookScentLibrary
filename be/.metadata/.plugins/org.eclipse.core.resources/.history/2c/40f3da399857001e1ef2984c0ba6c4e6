@@ -1,0 +1,9 @@
+package com.samsam.bsl.review.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+public class ReviewController {
+	
+	@Autowired
+    private ReviewService reviewService;
+}

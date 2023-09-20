@@ -1,0 +1,5 @@
+package com.samsam.bsl.review.dto;
+
+public class BookDTO {
+
+}
